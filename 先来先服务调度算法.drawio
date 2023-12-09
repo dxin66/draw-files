@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-09T08:14:06.912Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="3pUtgmArs7n6KwMLj4qU" version="22.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-09T08:21:35.931Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="Q8bu4ffszBkrvDkcJmvG" version="22.1.7" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="982" dy="570" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -9,8 +9,8 @@
             <mxPoint x="390" y="250" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="um3GFqPAfOgvHHpZD2lJ-1" value="各进程按执行时间由低到高排列" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="310" y="220" width="180" height="40" as="geometry" />
+        <mxCell id="um3GFqPAfOgvHHpZD2lJ-1" value="各进程按到达时间送进就绪队列" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="295" y="220" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="um3GFqPAfOgvHHpZD2lJ-2" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=14;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="um3GFqPAfOgvHHpZD2lJ-4" target="um3GFqPAfOgvHHpZD2lJ-5">
           <mxGeometry y="10" relative="1" as="geometry">
@@ -56,19 +56,17 @@
         <mxCell id="um3GFqPAfOgvHHpZD2lJ-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="um3GFqPAfOgvHHpZD2lJ-14" target="um3GFqPAfOgvHHpZD2lJ-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="um3GFqPAfOgvHHpZD2lJ-14" value="运行进程已占用CPU时间达到所需的运行时间" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=14;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="320" y="530" width="150" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="um3GFqPAfOgvHHpZD2lJ-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="um3GFqPAfOgvHHpZD2lJ-24">
+        <mxCell id="um3GFqPAfOgvHHpZD2lJ-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="um3GFqPAfOgvHHpZD2lJ-14" target="um3GFqPAfOgvHHpZD2lJ-40">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="320" y="240" as="targetPoint" />
+            <mxPoint x="580" y="960" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="395" y="900" />
-              <mxPoint x="140" y="900" />
-              <mxPoint x="140" y="240" />
+              <mxPoint x="600" y="630" />
+              <mxPoint x="600" y="950" />
             </Array>
-            <mxPoint x="400" y="820" as="sourcePoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="um3GFqPAfOgvHHpZD2lJ-14" value="运行进程是否已完成？" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=14;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="320" y="590" width="150" height="80" as="geometry" />
         </mxCell>
         <mxCell id="um3GFqPAfOgvHHpZD2lJ-18" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="390" y="408" width="40" height="30" as="geometry" />
@@ -83,25 +81,54 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="um3GFqPAfOgvHHpZD2lJ-20" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;进程完成，撤销该进程&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="320" y="660" width="150" height="40" as="geometry" />
+          <mxGeometry x="320" y="700" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="um3GFqPAfOgvHHpZD2lJ-29" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="um3GFqPAfOgvHHpZD2lJ-24" target="um3GFqPAfOgvHHpZD2lJ-4">
+        <mxCell id="um3GFqPAfOgvHHpZD2lJ-29" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="um3GFqPAfOgvHHpZD2lJ-24" target="um3GFqPAfOgvHHpZD2lJ-4">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="190" y="360" as="targetPoint" />
+            <mxPoint x="330" y="390" as="targetPoint" />
+            <mxPoint x="320" y="810" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="200" y="780" />
-              <mxPoint x="200" y="360" />
+              <mxPoint x="190" y="810" />
+              <mxPoint x="190" y="360" />
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="um3GFqPAfOgvHHpZD2lJ-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="um3GFqPAfOgvHHpZD2lJ-24" target="um3GFqPAfOgvHHpZD2lJ-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="um3GFqPAfOgvHHpZD2lJ-24" value="是否有新进程到达" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=14;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="325" y="740" width="140" height="80" as="geometry" />
+          <mxGeometry x="325" y="770" width="140" height="80" as="geometry" />
         </mxCell>
         <mxCell id="um3GFqPAfOgvHHpZD2lJ-28" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Yes&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="414" y="830" width="50" height="30" as="geometry" />
+          <mxGeometry x="400" y="850" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="um3GFqPAfOgvHHpZD2lJ-33" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;No&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="280" y="748" width="40" height="30" as="geometry" />
+          <mxGeometry x="280" y="780" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="um3GFqPAfOgvHHpZD2lJ-34" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Yes&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="400" y="660" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="um3GFqPAfOgvHHpZD2lJ-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="um3GFqPAfOgvHHpZD2lJ-36" target="um3GFqPAfOgvHHpZD2lJ-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="um3GFqPAfOgvHHpZD2lJ-36" value="时间片到，CPU时间+1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="307.5" y="530" width="175" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="um3GFqPAfOgvHHpZD2lJ-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="950" as="sourcePoint" />
+            <mxPoint x="295" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="100" y="950" />
+              <mxPoint x="100" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="um3GFqPAfOgvHHpZD2lJ-40" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;将进程加入就绪队列中&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="320" y="930" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="um3GFqPAfOgvHHpZD2lJ-42" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;No&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="482.5" y="600" width="40" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
