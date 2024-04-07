@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-07T09:46:25.432Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="uWW1soKiZYzVLnZs4VtG" version="24.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-07T09:47:14.351Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="Z74bnJ66y-tvrfqO93r2" version="24.2.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="986" dy="570" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1226" dy="604" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -78,6 +78,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="V140lpXY4jJ7KvVy1Jy8-63" value="循环周期epoch" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;" vertex="1" connectable="0" parent="V140lpXY4jJ7KvVy1Jy8-59">
+          <mxGeometry x="0.2167" relative="1" as="geometry">
+            <mxPoint y="62" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="V140lpXY4jJ7KvVy1Jy8-9" value="afterTrain()" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fontSize=13;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="460" y="540" width="210" height="235" as="geometry">
             <mxRectangle x="550" y="140" width="160" height="26" as="alternateBounds" />
@@ -113,15 +118,15 @@
           <mxGeometry y="34" width="190" height="40" as="geometry" />
         </mxCell>
         <mxCell id="V140lpXY4jJ7KvVy1Jy8-30" value="get_train_and_test_dataloader()" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fontSize=13;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="760" width="233" height="88" as="geometry">
+          <mxGeometry x="760" width="237" height="88" as="geometry">
             <mxRectangle x="340" y="380" width="170" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="V140lpXY4jJ7KvVy1Jy8-31" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontSize=13;" vertex="1" parent="V140lpXY4jJ7KvVy1Jy8-30">
-          <mxGeometry y="40" width="233" height="8" as="geometry" />
+          <mxGeometry y="40" width="237" height="8" as="geometry" />
         </mxCell>
         <mxCell id="V140lpXY4jJ7KvVy1Jy8-32" value="每次训练前，修改输出神经元的个数为&lt;div style=&quot;font-size: 13px;&quot;&gt;当前类别数&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;" vertex="1" parent="V140lpXY4jJ7KvVy1Jy8-30">
-          <mxGeometry y="48" width="233" height="40" as="geometry" />
+          <mxGeometry y="48" width="237" height="40" as="geometry" />
         </mxCell>
         <mxCell id="V140lpXY4jJ7KvVy1Jy8-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="V140lpXY4jJ7KvVy1Jy8-1">
           <mxGeometry relative="1" as="geometry">
@@ -157,15 +162,15 @@
           <mxGeometry y="34" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="V140lpXY4jJ7KvVy1Jy8-41" value="adjust_learning()" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fontSize=13;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="765" y="410" width="188" height="74" as="geometry">
+          <mxGeometry x="765" y="410" width="189" height="74" as="geometry">
             <mxRectangle x="340" y="380" width="170" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="V140lpXY4jJ7KvVy1Jy8-42" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontSize=13;" vertex="1" parent="V140lpXY4jJ7KvVy1Jy8-41">
-          <mxGeometry y="26" width="188" height="8" as="geometry" />
+          <mxGeometry y="26" width="189" height="8" as="geometry" />
         </mxCell>
         <mxCell id="V140lpXY4jJ7KvVy1Jy8-43" value="每次批次训练前，调整学习率" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;" vertex="1" parent="V140lpXY4jJ7KvVy1Jy8-41">
-          <mxGeometry y="34" width="188" height="30" as="geometry" />
+          <mxGeometry y="34" width="189" height="30" as="geometry" />
         </mxCell>
         <mxCell id="V140lpXY4jJ7KvVy1Jy8-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=13;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zkfFHV4jXpPFQw0GAbJ--20" target="V140lpXY4jJ7KvVy1Jy8-35">
           <mxGeometry relative="1" as="geometry" />
@@ -177,15 +182,15 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="V140lpXY4jJ7KvVy1Jy8-47" value="K_means++()" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fontSize=13;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="750" y="560" width="223" height="74" as="geometry">
+          <mxGeometry x="750" y="560" width="227" height="74" as="geometry">
             <mxRectangle x="340" y="380" width="170" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="V140lpXY4jJ7KvVy1Jy8-48" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontSize=13;" vertex="1" parent="V140lpXY4jJ7KvVy1Jy8-47">
-          <mxGeometry y="26" width="223" height="8" as="geometry" />
+          <mxGeometry y="26" width="227" height="8" as="geometry" />
         </mxCell>
         <mxCell id="V140lpXY4jJ7KvVy1Jy8-49" value="利用肘部法对新涌现样本进行聚类，&lt;div style=&quot;font-size: 13px;&quot;&gt;并对聚集的新类别进行加标签&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;" vertex="1" parent="V140lpXY4jJ7KvVy1Jy8-47">
-          <mxGeometry y="34" width="223" height="40" as="geometry" />
+          <mxGeometry y="34" width="227" height="40" as="geometry" />
         </mxCell>
         <mxCell id="V140lpXY4jJ7KvVy1Jy8-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.003;entryY=0.38;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=13;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="V140lpXY4jJ7KvVy1Jy8-10" target="V140lpXY4jJ7KvVy1Jy8-49">
           <mxGeometry relative="1" as="geometry" />
