@@ -84,11 +84,6 @@
         <mxCell id="vvas3Hs5nT01fyNB_Ypp-8" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 16px;&quot;&gt;Up Block 3&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;flipH=1;flipV=1;" vertex="1" parent="vvas3Hs5nT01fyNB_Ypp-29">
           <mxGeometry x="103" y="600" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="vvas3Hs5nT01fyNB_Ypp-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;" edge="1" parent="vvas3Hs5nT01fyNB_Ypp-29" source="vvas3Hs5nT01fyNB_Ypp-8">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="165" y="750" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="vvas3Hs5nT01fyNB_Ypp-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="vvas3Hs5nT01fyNB_Ypp-29" source="vvas3Hs5nT01fyNB_Ypp-9" target="vvas3Hs5nT01fyNB_Ypp-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -110,17 +105,26 @@
         <mxCell id="vvas3Hs5nT01fyNB_Ypp-15" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;Final Convolution&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="vvas3Hs5nT01fyNB_Ypp-29">
           <mxGeometry x="79" y="830" width="171" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="vvas3Hs5nT01fyNB_Ypp-48" value="&lt;b&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 18px;&quot;&gt;Output&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="vvas3Hs5nT01fyNB_Ypp-29">
-          <mxGeometry y="730" width="159.5" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="vvas3Hs5nT01fyNB_Ypp-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;" edge="1" parent="vvas3Hs5nT01fyNB_Ypp-29" source="vvas3Hs5nT01fyNB_Ypp-12" target="vvas3Hs5nT01fyNB_Ypp-6">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vvas3Hs5nT01fyNB_Ypp-48" value="&lt;b&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 18px;&quot;&gt;Output&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="vvas3Hs5nT01fyNB_Ypp-29">
+          <mxGeometry y="730" width="159.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vvas3Hs5nT01fyNB_Ypp-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;" edge="1" parent="vvas3Hs5nT01fyNB_Ypp-29" source="vvas3Hs5nT01fyNB_Ypp-19" target="vvas3Hs5nT01fyNB_Ypp-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="vvas3Hs5nT01fyNB_Ypp-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.947;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=3;" edge="1" parent="vvas3Hs5nT01fyNB_Ypp-29" source="vvas3Hs5nT01fyNB_Ypp-3" target="vvas3Hs5nT01fyNB_Ypp-49">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vvas3Hs5nT01fyNB_Ypp-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;" edge="1" parent="vvas3Hs5nT01fyNB_Ypp-29" source="vvas3Hs5nT01fyNB_Ypp-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="165" y="750" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="163" y="705" />
+              <mxPoint x="166" y="705" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
